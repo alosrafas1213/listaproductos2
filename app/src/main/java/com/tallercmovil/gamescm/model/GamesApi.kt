@@ -10,10 +10,10 @@ interface GamesApi {
     @GET
     fun getGames(
         @Url url: String?
-    ): Call<List<Game>>
+    ): Call<MutableList<Game>>
 
 
-    @GET("cm/games/game_detail.php?")
+    @GET("cm/2021-2/product_detail.php?")
     fun getGameDetail(
         @Query("id") id: String?//,
         //@Query("name") name: String?

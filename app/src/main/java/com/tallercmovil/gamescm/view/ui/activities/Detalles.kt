@@ -44,12 +44,12 @@ class Detalles : AppCompatActivity() {
                 with(binding){
                     pbConexion.visibility = View.INVISIBLE
 
-                    tvTitle.text = response.body()?.title
+                    tvTitle.text = "\n" + response.body()?.name
 
-                    tvLongDesc.text = response.body()?.longDesc
+                    tvLongDesc.text = response.body()?.desc
 
                     Glide.with(this@Detalles)
-                        .load(response.body()?.image)
+                        .load(response.body()?.imag_url)
                         .into(ivImage)
 
                 }

@@ -4,12 +4,12 @@ import com.google.gson.annotations.SerializedName
 
 class GameDetail {
 
-    @SerializedName("title")
-    var title: String? = null
+    @SerializedName("name")
+    var name: String? = null
 
-    @SerializedName("image")
-    var image: String? = null
+    @SerializedName("imag_url")
+    var imag_url: String? = null
 
-    @SerializedName("long_desc")
-    var longDesc: String? = null
+    @SerializedName("desc")
+    var desc: String? = null
 }

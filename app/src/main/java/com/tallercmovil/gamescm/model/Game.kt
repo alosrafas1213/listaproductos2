@@ -7,9 +7,22 @@ class Game {
     @SerializedName("id")
     var id: String? = null
 
-    @SerializedName("thumbnail")
-    var thumbnail: String? = null
+    @SerializedName("name")
+    var name: String? = null
 
-    @SerializedName("title")
-    var title: String? = null
+    @SerializedName("thumbnail_url")
+    var thumbnail_url: String? = null
+
+    @SerializedName("price")
+    var price: String? = null
+
+    @SerializedName("provider")
+    var provider: String? = null
+
+    @SerializedName("delivery")
+    var delivery: String? = null
+
+
+
+
 }

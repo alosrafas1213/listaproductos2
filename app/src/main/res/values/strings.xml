@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Games CM</string>
+    <string name="precio">Precio: </string>
+    <string name="envio">Envio: </string>
+    <string name="proveedor">Proveedor: </string>
+    <string name="gratis">Gratis</string>
+    <string name="buscar">Buscar producto</string>
+
 </resources>
